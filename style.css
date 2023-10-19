@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+.header-div {
+    display: flex;
+    background-color: rgba(201, 197, 197, 0.199);
+    height: 10vh;
+    position: sticky 2px;
+}
+
+.header-div a{
+    color: grey;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+:placeholder-shown{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+
+.calculator{
+ margin-left: 100px;
+ margin-top: 25px;
+ margin-right: 250px;
+}
+
+.calculator a{
+    margin-right: 50px;
+}
+
+.calculator a:hover{
+    color: rgb(145, 55, 55);
+    text-decoration: underline;
+}
+
+.needhelp{
+    margin-top: 25px;
+    margin-right: 70px;
+}
+
+.needhelp a:hover{
+    text-decoration: underline;
+}
+
+.whatsapp{
+    margin-top: 18px;
+    margin-right: 80px;
+}
+
+.whatsapp img:hover{
+    width: 30px;
+    transform: rotate(350deg);
+}
+
+.flag{
+    margin-top: 16px;
+    margin-bottom: 14px;
+    border: 0.5px solid rgb(194, 179, 179);
+    border-radius: 50px;
+    padding: 10px;
+    color: rgb(130, 133, 133);
+    padding-bottom: 0px;
+    font-weight: bold;
+}
+
+
+/* MAIN 1 */
+
+.banner1{
+    height: 77vh;
+    background-color: rgb(236,232,217);
+}
+
+.marquee{
+    height: 12vh;
+    background-color: rgb(243,177,205);
+}
+
+.header2{
+    display: flex;
+    padding-top: 28px;
+    text-decoration: none;
+}
+.header2 a{text-decoration: none; color: rgb(56,74,98); font-weight: bold; font-family: Arial, Helvetica, sans-serif; font-size: 15px;}
+
+.logo{
+    margin-left: 100px;
+    margin-right: 240px;
+}
+
+.allproducts{
+    margin-top: 10px;
+}
+.allproducts a{margin-right: 25px;}
+
+.allproducts a:hover{
+    font-weight: bolder;
+    text-decoration: underline wavy;
+}
+
+.signin a:hover{
+    font-weight: bolder;
+    text-decoration: underline wavy;
+}
+
+.signin{margin-top: 10px;
+    margin-left: 22px;
+}
+.signin a{margin-left: 15px;}
+
+.quality h2{font-size: 70px; color: rgb(56,74,98); margin-left: 90px; margin-top: 90px; margin-bottom: 10px;}
+.quality h3{font-size: 30px; color: rgb(112,128,149); margin-left: 90px; margin-top: 0px;}
+.quality p{font-size: 18px; font-weight: bold; color: rgb(56,74,98); margin-left: 90px;}
+.quality input{margin-left: 90px;}
+.quality img{margin-left: -70px; }
+
+.products-section{
+    display:flex ;
+    margin-bottom: 70px;
+    margin-left: 140px;
+}
+.products-section div{padding-left: 20px;}
+
+.firstproduct{
+    width: 250px;
+    height: 75vh;
+    border: solid 0.0000000000000000000000000000000000000000000001px rgb(83, 78, 78);
+    box-shadow: 2px 2px 2px rgb(197, 191, 191);
+    margin-left: 60px;
+}
+
+.twitter-contents{
+    display: flex;
+    width: 300px;
+    height: 22vh;
+    padding: 30px;
+    padding-left: 65px;
+    margin-right: 0px;margin-top: -10px;
+    background-color: white;
+    box-shadow: 2px 2px 2px darkgray;
+    border-radius: 5px;
+
+}
